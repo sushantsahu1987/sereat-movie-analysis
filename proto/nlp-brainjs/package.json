@@ -1,0 +1,19 @@
+{
+  "name": "nlpbrainjs",
+  "version": "1.0.0",
+  "description": "a natural language processing prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nlp",
+    "expressjs"
+  ],
+  "author": "ssahu",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^1.4.2",
+    "express": "^4.16.4"
+  }
+}
