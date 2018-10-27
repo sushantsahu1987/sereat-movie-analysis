@@ -1,2 +1,15 @@
 # sereat-movie-analysis
 An application that does a textual analysis on movie scripts
+
+
+
+LINKS:
+1.Natural language processing with javascript
+https://medium.com/@daffl/natural-language-processing-and-machine-learning-in-javascript-249181a3b721
+
+2. 
+http://www.script-o-rama.com/snazzy/table.html
+http://www.script-o-rama.com/snazzy/table2.html
+http://www.script-o-rama.com/snazzy/table3.html
+http://www.script-o-rama.com/snazzy/table4.html
+
