@@ -5,7 +5,7 @@ An application that does a textual analysis on movie scripts
 
 #LINKS:
 
-1.Natural language processing with javascript
+1. Natural language processing with javascript
 https://medium.com/@daffl/natural-language-processing-and-machine-learning-in-javascript-249181a3b721
 
 2. Movie script link 
