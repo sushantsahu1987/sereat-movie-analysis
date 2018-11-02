@@ -4,7 +4,10 @@
   "description": "A tutorial into args, envs in nodejs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js mode=argv",
+    "pstart": "PORT=3000 node app.js",
+    "dstart": "DEV=DEBUG PORT=3000 node app.js mode=argv",
+    "pstart": "DEV=PROD PORT=3000 node app.js mode=argv"
   },
   "keywords": [
     "nodejs"
