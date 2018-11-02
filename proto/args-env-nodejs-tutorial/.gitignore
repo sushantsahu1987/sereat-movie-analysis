@@ -75,4 +75,5 @@ typings/
 # FuseBox cache
 .fusebox/
 
-
+# Do not commit prod file
+prod.json
