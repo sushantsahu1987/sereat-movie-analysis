@@ -1,0 +1,14 @@
+{
+  "name": "args-env-nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial into args, envs in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "ssahu",
+  "license": "ISC"
+}
