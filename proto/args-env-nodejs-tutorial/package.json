@@ -5,8 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js mode=argv",
-    "pstart": "DEV=PROD PORT=3000 node app.js mode=argv",
-    "dstart": "DEV=DEBUG PORT=3000 node app.js mode=argv"
+    "start:env:dev": "DEV=PROD PORT=3000 node app.js mode=argv",
+    "start:env:prod": "DEV=DEBUG PORT=3000 node app.js mode=argv",
+    "start:dev": "DEV=DEBUG PORT=3000 node -r ./myconfig.js app.js mode=argv",
+    "start:prod": "DEV=PROD PORT=3000 node -r ./myconfig.js app.js mode=argv"
   },
   "keywords": [
     "nodejs"

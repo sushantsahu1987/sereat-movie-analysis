@@ -77,3 +77,6 @@ typings/
 
 # Do not commit prod file
 prod.json
+
+# Do not commit prod file
+prod.env

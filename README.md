@@ -19,4 +19,7 @@ http://www.script-o-rama.com/snazzy/table4.html
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 #TUTORIALS:
-https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
+
+1. https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
+
+2. https://nodejs.org/api/cli.html#cli_r_require_module
