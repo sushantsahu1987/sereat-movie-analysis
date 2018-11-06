@@ -40,6 +40,9 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 	
 	g. Docker volumes:
 	   docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 90f474cc9ef6
+	
+	h. Run tests on react docker container (-it = std input)
+	   docker run -it 0655f0d6789c npm run test
 
 4. Docker Compose
 	
