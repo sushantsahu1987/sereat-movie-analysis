@@ -18,6 +18,24 @@ http://www.script-o-rama.com/snazzy/table4.html
 3. Docker
 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
+	a. Default buid command in docker:
+	   docker build .
+
+	b. Build command with docker to tag it:
+	   docker build -t sushantsahu/docker-nodejs-tutorial .
+
+	c. Run docker with mapped port:
+	   docker run -p 3000:3000 sushantsahu/docker-nodejs-tutorial
+	
+	d. To open shell within the container:
+	   docker run -it sushantsahu/docker-nodejs-tutorial sh
+
+	e. See running docker processes:
+	   docker ps
+
+	e. To open shell within container, when app is running:
+	   docker exec -it <container_id> sh  
+
 #TUTORIALS:
 
 1. https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
