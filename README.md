@@ -36,6 +36,16 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 	e. To open shell within container, when app is running:
 	   docker exec -it <container_id> sh  
 
+4. Docker Compose
+	
+	// -d run in background
+	
+	a. docker-compose up
+	b. docker-compose up --build
+	c. docker-compose up -d
+	c. docker-compose down 
+	d. docker-componse ps
+
 #TUTORIALS:
 
 1. https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html

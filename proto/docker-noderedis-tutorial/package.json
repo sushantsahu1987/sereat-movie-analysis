@@ -4,7 +4,7 @@
   "description": "A docker for nodejs webapp running reddis (multiple containers)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "expressjs",
@@ -13,6 +13,7 @@
   "author": "ssahu",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
   }
 }
