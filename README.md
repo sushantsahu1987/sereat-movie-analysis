@@ -35,6 +35,11 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
 	e. To open shell within container, when app is running:
 	   docker exec -it <container_id> sh  
+	
+	f. docker build -f Dockerfile.dev .
+	
+	g. Docker volumes:
+	   docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 90f474cc9ef6
 
 4. Docker Compose
 	
