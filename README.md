@@ -3,7 +3,7 @@ An application that does a textual analysis on movie scripts
 
 
 
-#LINKS:
+## Links:
 
 1. Natural language processing with javascript
 https://medium.com/@daffl/natural-language-processing-and-machine-learning-in-javascript-249181a3b721
@@ -54,7 +54,7 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 	c. docker-compose down 
 	d. docker-componse ps
 
-#TUTORIALS:
+## Tutorials
 
 1. https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
 
