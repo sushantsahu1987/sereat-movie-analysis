@@ -2,7 +2,16 @@
 
 An application that does a textual analysis on movie scripts
 
-### Links:
+### Projects within
+
+	1. args-env-nodejs-tutorial
+	2. docker-multicont-tutorial
+	3. docker-nodejs-tutorial
+	4. docker-noderedis-tutorial
+	5. docker-react-nginx-tutorial
+	6. nlp-brainjs	
+
+### Links
 
 	1. Natural language processing with javascript
 	https://medium.com/@daffl/natural-language-processing-and-machine-learning-in-javascript-249181a3b721
