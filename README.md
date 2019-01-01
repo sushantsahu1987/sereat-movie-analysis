@@ -1,6 +1,6 @@
-# sereat-movie-analysis
+# docker-learnings
 
-An application that does a textual analysis on movie scripts
+Learning docker the rocking way
 
 ### Projects within
 
