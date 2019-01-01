@@ -67,3 +67,7 @@ Learning docker the rocking way
 	1. https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
 
 	2. https://nodejs.org/api/cli.html#cli_r_require_module
+	
+	3. https://scotch.io/@Mozartted/docker-networking-how-to-connect-multiple-containers
+	
+	
