@@ -1,0 +1,18 @@
+{
+  "name": "app-2",
+  "version": "1.0.0",
+  "description": "A simple docker container running a node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "ssahu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
