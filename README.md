@@ -61,6 +61,10 @@ Learning docker the rocking way
 		c. docker-compose up -d
 		c. docker-compose down 
 		d. docker-componse ps
+		
+	5. Docker Network
+		docker run -p 3001:3001 --net=test --name="nodejs-app1-2" sushantsahu/docker-nodejs-app-1
+	
 
 ### Tutorials
 
