@@ -64,7 +64,12 @@ Learning docker the rocking way
 		
 	5. Docker Network
 		docker run -p 3001:3001 --net=test --name="nodejs-app1-2" sushantsahu/docker-nodejs-app-1
-	
+		
+	6. Persist Database
+		a. In docker compose add the following:
+			volumes:
+			 - ./postgres-data:/var/lib/postgresql/data
+		
 
 ### Tutorials
 
@@ -73,5 +78,7 @@ Learning docker the rocking way
 	2. https://nodejs.org/api/cli.html#cli_r_require_module
 	
 	3. https://scotch.io/@Mozartted/docker-networking-how-to-connect-multiple-containers
+	
+	4. https://stackoverflow.com/questions/41637505/how-to-persist-data-in-a-dockerized-postgres-database-using-volumes
 	
 	
