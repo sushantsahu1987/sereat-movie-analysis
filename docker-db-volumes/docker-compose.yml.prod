@@ -1,0 +1,30 @@
+version: '3'
+services:
+  postgres:
+    image: 'postgres:latest'
+    volumes:
+      - /var/lib/postgresql/data
+  nginx:
+    restart: always
+    build:
+      context: ./nginx
+    ports:
+      - '80:80'
+  client:
+    build:
+      context: ./db-react-webapp
+    volumes:
+      - /app/node_modules
+      - ./db-react-webapp:/app
+  api:
+    build:
+      context: ./db-connect-server
+    volumes:
+      - /app/node_modules
+      - ./db-connect-server:/app
+    environment:
+      - PGUSER=postgres
+      - PGHOST=postgres
+      - PGDATABASE=postgres
+      - PGPASSWORD=postgres_password
+      - PGPORT=5432
