@@ -81,4 +81,5 @@ Learning docker the rocking way
 	
 	4. https://stackoverflow.com/questions/41637505/how-to-persist-data-in-a-dockerized-postgres-database-using-volumes
 	
+	5. https://stackoverflow.com/questions/36283908/re-using-environmental-variables-in-docker-compose-yml
 	
