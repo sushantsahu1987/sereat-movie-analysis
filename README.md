@@ -83,3 +83,5 @@ Learning docker the rocking way
 	
 	5. https://stackoverflow.com/questions/36283908/re-using-environmental-variables-in-docker-compose-yml
 	
+	6. https://stackoverflow.com/questions/52302770/mongo-db-persistence-in-docker-with-volumes
+	
