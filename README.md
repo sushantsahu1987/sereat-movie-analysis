@@ -85,3 +85,5 @@ Learning docker the rocking way
 	
 	6. https://stackoverflow.com/questions/52302770/mongo-db-persistence-in-docker-with-volumes
 	
+	7. https://www.imore.com/how-edit-your-macs-hosts-file-and-why-you-would-want#how-to-reset-the-hosts-file
+	
