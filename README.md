@@ -69,6 +69,11 @@ Learning docker the rocking way
 		a. In docker compose add the following:
 			volumes:
 			 - ./postgres-data:/var/lib/postgresql/data
+			 
+	7. Docker Hub
+		a. docker login (username: sushantsahu)
+		b. docker push sushantsahu/[name]
+	
 		
 
 ### Tutorials
